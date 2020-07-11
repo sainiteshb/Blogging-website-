@@ -14,10 +14,7 @@ html, body{
     --midnight: #104f55;
 
     
-    --sky: linear-gradient(128deg, #04FFFF 0%, #FF2CE2 100%);
-
-   
-    
+    --sky: linear-gradient(128deg, #04FFFF 0%, #FF2CE2 100%);  
 }
 
 
@@ -81,7 +78,6 @@ p{
 
 .nav{
     background: whitesmoke;
-
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -290,10 +286,6 @@ main .blog-content span{
 }
  
 
-
-
-
-
 textarea{
     background-color: whitesmoke;
     font-family: sans-serif;
@@ -461,3 +453,4 @@ footer.footer .move-up span:hover{
     }
 
 }
+/* End */
