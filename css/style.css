@@ -1,6 +1,7 @@
 @import url('../css/font.css');
 html, body{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -11,9 +12,8 @@ html, body{
     --text-light : #686666da;
     --bg-color: #0f0f0f;
     --white: #ffffff;
-    --midnight: #104f55;
 
-    
+    /* basic gradienet color */
     --sky: linear-gradient(128deg, #04FFFF 0%, #FF2CE2 100%);  
 }
 
@@ -21,7 +21,7 @@ html, body{
 
 a{
     text-decoration: none;
-    color: var(--text-gray);
+    color: #3f4954;
 }
 
 .flex-row{
